@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+html,
+body {
+  height: 100%;
+  position: relative;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #a8a7a7;
+}
+
+.form-signin {
+  max-width: 330px;
+  padding: 15px;
+}
+.form-floating{
+    position: relative;
+}
+
+.form-signin .form-floating:focus-within {
+  z-index: 2;
+}
+
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+.emailLabel{
+    position:absolute;
+    top:20%;
+    left:50%;
+    transform:translateX(-50%);
+
+}
+.form-floating input:focus >.emailLabel{
+    display:none;
+}
+.pi{
+    background-color: black;
+    border-radius: 30%;
+    border: 2px solid grey;
+}
+.button{
+    margin-top:15px;
+}
+.password{
+    margin-top:-1px;
+}
+#floatingEmail,#floatingInput{
+  margin-top:-1px;
+}
